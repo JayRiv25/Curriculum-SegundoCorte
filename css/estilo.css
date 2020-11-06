@@ -1,0 +1,142 @@
+a{
+    text-decoration: none;
+    font-family: arial;
+    font-size: 15px;
+    color:blue;
+    padding: 10px;
+}
+
+a:hover{
+    color:white;
+}
+
+header{
+    background-color: rgba(255, 68, 0, 0.733);
+    border-radius: 40px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.header{
+    margin-left: 20px;
+}
+
+body{
+    background-color: #f3f1eb;
+}
+
+h1{
+    color:black;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    color:darkblue;
+    font-size: 20px;
+    font-family: arial;
+}
+
+p{
+    font-size: 16px;
+    font-family: calibri;
+}
+
+li{
+    font-family: calibri;
+    text-decoration: none;
+}
+
+#menu{
+    color:blue;
+}
+
+table{
+    width: 100%;
+}
+
+#education{
+    font-family: calibri;
+    background-color: greenyellow;
+    border-radius: 40px;
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+
+#me{
+    background-color:blueviolet;
+    border-radius: 40px;
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+
+#obj{
+    background-color: rgba(0, 0, 255, 0.452);
+    border-radius: 40px;
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+
+td{
+    padding-left: 30px;
+}
+
+#experiencia{
+    background-color: rgba(255, 0, 0, 0.534);
+    border-radius: 40px;
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-bottom: 5px;
+}
+
+#habilidades{
+    font-family: calibri;
+    background-color: blueviolet;
+    border-radius: 40px;
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-bottom: 5px;
+}
+
+#perfiles-sociales{
+    background-color: rgba(0, 128, 0, 0.568);
+    border-radius: 40px;
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-bottom: 5px;
+}
+
+#contacto{
+    background-color:rgba(128, 0, 128, 0.747);
+    border-radius: 40px;
+    padding-top: 5px;
+    padding-left: 40px;
+}
+
+#formulario{
+    display: none;
+}
+
+button{
+    background-color:silver;
+    margin-left:90px;
+    margin-bottom: 20px;
+    border-radius:165px; 
+    font-family:arial;
+    width:100px;
+    height:50px; 
+    box-shadow: 5px 5px 5px;
+}
+
+button:hover{
+    background-color:silver; 
+    color:blue; 
+    font-family:arial;
+}
+
+button:active{
+    background-color: yellowgreen;
+}
