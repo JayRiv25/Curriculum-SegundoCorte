@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es-VE">
+<head>
+    <title>Curriculum Vitae</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/estilo.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+    <script src="javascript/script.js"></script>
+    <script src="javascript/bootstrap.min.js"></script>
+
+
+    <script>
+    function sms(){
+        document.getElementById("form").innerHTML="Mensaje enviado"
+    }
+    </script>
+
+</head>
+
+<body>
+<header>
+    <div id="header" class="header">
+        <ul id="menu" class="inline">
+            <li><a href="#me">Información</a></li>
+            <li><a href="#obj">Objetivos</a></li>
+            <li><a href="#education">Estudios</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#perfiles-sociales">Redes Sociales</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </div>
+</header>
+<aside></aside>
+
+    <hr>
+    <div id="container">
+    <div id="me">
+        <img id="foto" src="" style="width: 100px;">
+        <button onclick="document.getElementById('foto').src='foto.jpg'">Ver foto</button>
+        <h1>José Antonio Rivero Pinto</h1>
+            <p><strong>C.I.:</strong> 28.384.297</p>
+            <p><strong>Estado civil:</strong> Soltero</p>
+            <p><strong>Teléfono:</strong> +58 0412-7427199</p>
+            <p><strong>Correo:</strong> joripin25@gmail.com</p>
+            <p><strong>Dirección:</strong> Conj. Resid. San José, Torre 6, Piso 2, Apto. 6-2A. Sector Los Caobos.</p>
+    </div>
+
+    <hr>
+    <div id="container">
+    <div id="obj">
+        <h1>Objetivos</h1>
+            <p>Convertirme en un innovador de la informática que logre cambiar al mundo. También aspirante a ser escritor y director de cine en Londres, Inglaterra.</p>
+    </div>
+    
+    <hr>
+    <div id="education">
+        <h1>Estudios</h1>
+        <h2>U.E. YMCA “Don Teodoro Gubaira”</h2>
+            <p><i><strong>2019</i> | Bachiller</strong></p>
+        <table id="education">
+                <table class="table">
+            <thead>
+                <tr>
+                  <th>Logro</th>
+                  <th>Institución</th>
+                  <th>Ubicación</th>
+                  <th>Desde-hasta</th>
+                </tr>
+        
+        <tbody>
+            <tr>
+                <td>Haberme graduado del 5to año de bachillerato.</td>
+                <td>U.E. YMCA “Don Teodoro Gubaira”</td>
+                <td>Valencia</td>
+                <td>2008-2019</td>
+            </tr>
+            <tr>
+                <td>Haber participado en las olimpiadas de matemáticas dos veces en años distintos.</td>
+                <td>U.E. YMCA “Don Teodoro Gubaira”</td>
+                <td>Valencia</td>
+                <td>2010 y 2013</td>
+            </tr>
+            <tr>
+                <td>Haber participado en la banda estudiantil durante 3 años seguidos.</td>
+                <td>U.E. YMCA “Don Teodoro Gubaira”</td>
+                <td>Valencia</td>
+                <td>2011-2013</td>
+            </tr>
+            <tr>
+                <td>Aprobación de curso de desarrollo de páginas web básico.</td>
+                <td>INCES</td>
+                <td>Los Colorados</td>
+                <td>Octubre 2020-Noviembre 2020</td>
+            </tr>
+            <tr>
+                <td>Haber ingresado en la universidad.</td>
+                <td>Universidad Tecnológica del Centro</td>
+                <td>Guacara</td>
+                <td>2020-Actualidad</td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+
+    <hr>
+    <div id="experiencia">
+        <h1>Experiencia</h1>
+            <p>Sin cargos.</p>
+    </div>
+
+    <hr>
+    <div id="habilidades">
+        <h1>Habilidades</h1>
+            <ul>
+                <li>Habilidad con sistemas de computadoras.</li>
+                <li>Creatividad como escritor.</li>
+                <li>Apasionado por la cinematografía.</li>
+                <li>Conocimiento en desarrollo básico de páginas web.</li>
+                <li>Conocimiento medio de inglés.</li>
+            </ul>
+    </div>
+
+    <hr>
+    <div id="perfiles-sociales">
+        <h1>Redes Sociales</h1>
+        <ul>
+            <li>Facebook:</li>
+            <li>Instagram:</li>
+            <li>Twitter:</li>
+            <li>WhatsApp/Telegram:</li>
+            <li>YouTube:</li>
+        </ul>
+    </div>
+</body>
+
+<hr>
+<footer id="contacto">   
+    <div class="caja"><h1>Contacto</h1>
+        <button type="button" onclick="mostrarFormulario();">Mostrar formulario</button>
+    <form id="formulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese nombre"><br>
+        <br><label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Ingrese apellido"><br>
+        <br><label for="correo">Correo:</label>
+        <input type="email" id="correo" placeholder="Ingrese correo"><br>
+        <br><label for="body">Mensaje:</label>
+        <textarea id="body" required="" placeholder="Escriba mensaje"></textarea><br>
+        <p id="form">Llene el formulario</p>
+        <br><button type="button" onclick="sms()">Enviar</button></br>
+
+    </form>
+    </div>
+</footer>
+</html>
